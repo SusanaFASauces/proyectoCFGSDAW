@@ -1,0 +1,81 @@
+/* 
+    Autor.- Susana Fabián Antón
+    Fecha creación.- 30/09/2020
+    Última modificación.- 30/09/2020
+*/
+
+/* Reglas de estilo de reseteo */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+/*    text-decoration: none;
+    color: black;*/
+}
+	
+/* Reglas de estilo generales */
+main {
+    margin: 0px 40px 0px 40px;
+}
+body>header {
+    text-align: center;
+}
+h1 {
+    /* border: 1.5px solid #6E838F; */
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+	
+}
+h2 {
+    border-bottom: 1.5px solid black;
+    margin: auto;
+    width: 20%;
+}
+h3 {
+    border-bottom: 1.5px solid black;
+    margin: 10px 0px 5px 0px;
+    width: fit-content;
+}
+h4 {
+    padding: 5px 20px;
+    width: fit-content;
+}
+section {
+    margin: 5px;
+    padding: 5px;
+}
+article {
+    margin: 5px;
+    padding: 5px;
+}
+p, address {
+    margin: 10px 5px;
+}
+footer {
+    /* border: 1.5px solid #8F7A6E; */
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+/*
+    Colores:
+        Verde: #67A282
+        Marrón: #BFA393
+        Marrón x2: #9D8B80
+        Azul: #93AFBF
+        Azul x2: #6E838F
+        Negro: #2A262C
+*/
+h1 {
+    background-color: #93AFBF;
+    color: white;
+}
+footer {
+    background-color: #9D8B80;
+    color: white;
+}
