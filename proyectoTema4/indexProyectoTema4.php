@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="webroot/css/estilo.css">
     </head>
     <body>
+        <p>Buenos días</p>
         <header>
             <h1>CFGS Desarrollo de Aplicaciones Web</h1>
             <h2>TEMA 4</h2>
