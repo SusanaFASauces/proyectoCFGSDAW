@@ -1,0 +1,160 @@
+/* 
+    Autor.- Susana Fabián Antón
+    Fecha creación.- 27/09/2020
+    Última modificación.- 29/09/2020
+*/
+
+/* Reglas de estilo de reseteo */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Reglas de posicionamiento generales */
+main {
+    display: grid;
+    grid-template-areas: "sobremi trabajos" "modulos modulos";
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto auto;
+}
+
+.sobremi {
+    grid-area: sobremi;
+}
+.trabajos {
+    grid-area: trabajos;
+}
+    /* Posicionamiento de 'Mis trabajos' */
+    .modulos {
+        display: grid;
+        grid-area: modulos;
+        grid-template-areas: "head head head head head head" "dwes dwes dwes dwec dwec dwec" "diw diw daw daw eie eie";
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+    .modulos header {
+        grid-area: head;
+    }
+    .diw {
+        grid-area: diw;
+    }
+    .dwec {
+        grid-area: dwec;
+    }
+    .dwes {
+        grid-area: dwes;
+    }
+    .daw {
+        grid-area: daw;
+    }
+    .eie {
+        grid-area: eie;
+    }
+
+    /* Posicionamiento de 'Sobre mí' */
+    .sobremi article {
+        /* display: grid; */
+        float: left;
+        grid-template-areas: "img desc1" "desc2 desc2";
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .sobremi img {
+        /* grid-area: img; */
+        border: 1.5px solid #8F7A6E;
+        padding: 5px;
+        width: 25%;
+        float: left;
+        /* max-width: 100%; */
+        height: auto;
+        margin: 10px;
+    }
+	
+/* Reglas de estilo generales */
+main {
+    margin: 0px 40px 0px 40px;
+}
+body>header {
+    text-align: center;
+}
+h1 {
+    /* border: 1.5px solid #6E838F; */
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+	
+}
+h2 {
+    border-bottom: 1.5px solid black;
+    margin: auto;
+    width: 20%;
+}
+h3 {
+    border-bottom: 1.5px solid black;
+    margin: 10px 0px 5px 0px;
+    width: fit-content;
+}
+h4 {
+    /* border: 1.5px solid #6E838F; */
+    padding: 5px 20px;
+    width: fit-content;
+}
+section {
+    margin: 5px;
+    padding: 5px;
+}
+article {
+	margin: 5px;
+	padding: 5px;
+}
+p, address {
+	margin: 10px 5px;
+}
+.trabajos p {
+	margin: 10px 5px;
+	padding: 10px;
+	text-align: center;
+}
+.trabajos p:hover {
+	background-color: #BFA393;
+}
+footer {
+	/* border: 1.5px solid #8F7A6E; */
+	margin: 10px auto;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+}
+
+/*
+	Colores:
+		Verde: #67A282
+		Marrón: #BFA393
+		Marrón x2: #9D8B80
+		Azul: #93AFBF
+		Azul x2: #6E838F
+		Negro: #2A262C
+*/
+h1 {
+	background-color: #93AFBF;
+	color: white;
+}
+h4 {
+	background-color: #93AFBF;
+	color: white;
+}
+.trabajos p {
+	background-color: #9D8B80;
+}
+a {
+	color: white;
+}
+footer {
+	background-color: #9D8B80;
+	color: white;
+}
